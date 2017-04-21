@@ -1,5 +1,33 @@
-_default {
+_default
+{
     {
         map     _default
+    }
+}
+
+textures/bigchars
+{
+	{
+		map     textures/default/bigchars.tga
+		blend   blend
+		maskDepth
+		colored
+		nopicmip
+		linear
+	}
+}
+
+console
+{
+	{
+		map	    textures/default/black.tga
+		linear
+	}
+}
+
+splashScreen
+{
+    {
+        map     textures/default/splash.tga
     }
 }
