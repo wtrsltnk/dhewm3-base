@@ -1,0 +1,5 @@
+// Mandatory file for the DOOM 3 engine : doom_main.script
+
+// Optional doom main
+void doom_main() {
+}
