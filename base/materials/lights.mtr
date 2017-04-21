@@ -1,8 +1,8 @@
 lights/defaultpointlight
 {
-    lightFalloffImage   makeintensity(lights/defaultpointlight_falloff.tga)
+    lightFalloffImage   makeintensity(textures/default/defaultpointlight_falloff.tga)
     {
-        map     lights/defaultpointlight.tga
+        map     textures/default/defaultpointlight.tga
     }
 }
 
@@ -10,6 +10,6 @@ lights/defaultprojectedlight
 {
     lightFalloffImage   _noFalloff
     {
-        map     lights/defaultpointlight.tga
+        map     textures/default/defaultpointlight.tga
     }
 }
